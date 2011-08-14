@@ -1,1 +1,27 @@
 このリポジトリは和英経済辞書のためのリポジトリです。
+
+Global setup:
+ Set up git
+  git config --global user.name "Yoshikazu Miyoshi"
+  git config --global user.email yoshikazum@gmail.com
+        
+Next steps:
+  mkdir test
+  cd test
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:yoshikazum/test-Project.git
+  git push -u origin master
+      
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:yoshikazum/test-Project.git
+  git push -u origin master
+      
+Importing a Subversion Repo?
+  Click here
+      
+When you're done:
+  Continue
